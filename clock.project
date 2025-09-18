@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital & Analog Clock</title>
+    <link rel="stylesheet" href="clock.project.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Digital Clock -->
+        <div class="digital-clock">
+            <div class="time" id="digital-time">00:00:00</div>
+            <div class="date" id="digital-date">Monday, January 1, 2024</div>
+        </div>
+
+        <!-- Analog Clock -->
+        <div class="analog-clock">
+            <div class="clock-face">
+                <!-- Hour Marks -->
+                <div class="hour-mark" style="transform: rotate(0deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(30deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(60deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(90deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(120deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(150deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(180deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(210deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(240deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(270deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(300deg) translateX(-50%);"></div>
+                <div class="hour-mark" style="transform: rotate(330deg) translateX(-50%);"></div>
+
+                <!-- Numbers -->
+                <div class="number n12">12</div>
+                <div class="number n3">3</div>
+                <div class="number n6">6</div>
+                <div class="number n9">9</div>
+
+                <!-- Clock Hands -->
+                <div class="hand hour-hand" id="hour-hand"></div>
+                <div class="hand minute-hand" id="minute-hand"></div>
+                <div class="hand second-hand" id="second-hand"></div>
+
+                <!-- Center Dot -->
+                <div class="center-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="clock.project.js"></script>
+</body>
+
+</html>
